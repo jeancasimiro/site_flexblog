@@ -1,0 +1,44 @@
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: white;
+    }
+
+    &-logo {
+
+        a {
+            font-size: 2.25em;
+        font-weight: bold;
+        margin: 0 10px;
+        } 
+    }
+
+    &-nav {
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        a {
+            font-size: 1.25em;
+            display: block;
+            padding: 10px;
+
+            &:hover {
+                color: #122ab2;
+            }
+        }
+    }
+
+    &-bg {
+        background: #2c70ff;
+    }
+}
